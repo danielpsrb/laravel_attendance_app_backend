@@ -68,14 +68,14 @@
                                         @foreach ($permissions as $permission)
                                             <tr>
                                                 <td>
-                                                    <span>{{ $permission->user->name }}</span>
+                                                    <span>{{ optional($permission->user)->name ?? 'N/A' }}</span>
                                                 </td>
                                                 <td>
-                                                    <span class="badge badge-primary">{{ $permission->user->department->name }}</span>
+                                                    {{ optional(optional($permission->user->student)->department)->name ?? 'N/A' }}
                                                 </td>
                                                 <td>
                                                     <span class="badge badge-primary">
-                                                        {{ $permission->user->faculty->name }}
+                                                        {{ optional(optional($permission->user->student)->faculty)->name ?? 'N/A' }}
                                                     </span>
                                                 </td>
                                                 <td>
