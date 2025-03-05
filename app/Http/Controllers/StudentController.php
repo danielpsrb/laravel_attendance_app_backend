@@ -48,7 +48,6 @@ class StudentController extends Controller
             $photoPath =  $request->file('photo_student');
             $photoName = time(). '.' . $photoPath->getClientOriginalExtension();
             $photoPath->storeAs('public/students', $photoName);
-
             $student->photo_url = $photoName;
             $student->save();
         }
