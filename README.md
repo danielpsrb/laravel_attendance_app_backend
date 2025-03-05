@@ -1,3 +1,9 @@
+<picture>
+    <source srcset="public/img/attendances-icon.png"  
+            media="(prefers-color-scheme: dark)">
+    <img src="public/images/logo-dark.png" alt="App Logo">
+</picture>
+
 # Laravel Absensi App
 
 Laravel Absensi digunakan untuk Aplikasi Absensi Mahasiswa dari sisi backend pada pembuatan API
@@ -24,6 +30,10 @@ Laravel Absensi digunakan untuk Aplikasi Absensi Mahasiswa dari sisi backend pad
 # Admin Credentials
 
 > Email: admin@example.com || Password: superadmin21
+
+## Dashboard View
+
+![Triangle POS](public/img/ss_dashboard.png)
 
 ## Teknologi yang digunakan
 
