@@ -1,5 +1,5 @@
 <picture>
-    <source srcset="public/img/attendances-icon.png"  
+    <source srcset="public/img/attendance-icon.png"  
             media="(prefers-color-scheme: dark)">
     <img src="public/images/logo-dark.png" alt="App Logo">
 </picture>
