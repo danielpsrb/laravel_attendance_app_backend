@@ -1,12 +1,6 @@
-<picture>
-    <source srcset="public/img/attendance-icon.png"  
-            media="(prefers-color-scheme: dark)">
-    <img src="public/images/logo-dark.png" alt="App Logo">
-</picture>
+# Laravel Attendance App
 
-# Laravel Absensi App
-
-Laravel Absensi digunakan untuk Aplikasi Absensi Mahasiswa dari sisi backend pada pembuatan API
+Laravel Attendance app digunakan untuk Aplikasi Absensi Mahasiswa dari sisi backend untuk pembuatan RESTful API dan halaman Dashboard Admin dalam mengelola data mahasiswa
 
 ## Fitur Utama
 
